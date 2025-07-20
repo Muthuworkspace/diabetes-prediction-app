@@ -3,9 +3,8 @@ import numpy as np
 import pickle
 import pandas as pd
 
-model = pickle.load(open('disease_model.pkl', 'rb'))
-
-scaler = pickle.load(open('scaler.pkl', 'rb'))
+model = pickle.load(open('diabetes_app/disease_model.pkl', 'rb'))
+scaler = pickle.load(open('diabetes_app/scaler.pkl', 'rb'))
 
 
 st.title("Early Disease Prediction")
